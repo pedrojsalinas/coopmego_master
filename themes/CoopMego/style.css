@@ -83,7 +83,8 @@ table {
 
 body {
   font-family: Tahoma, Georgia, Arial, sans-serif;
-  background: url("images/background.png");
+  /*background: url("images/background.png");*/
+  background: red;
   color: #515F5C;
   font-family: Arial,Helvetica,sans-serif;
   font-size:12px;
