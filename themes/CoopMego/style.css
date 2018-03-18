@@ -94,12 +94,13 @@ body {
   width: 25%;
 }
 a {
-  color: rgb(251, 90, 2);
+  color: #0062a6;
+  font-weight: bold;
   text-decoration:none;
 }
 
 a:hover {
-  color: rgb(230, 80, 0);
+  color: #FFB300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -431,13 +432,12 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
 
 #main-menu a {
   display: block;
-  color: rgb(153, 153, 153);
+  color: #FFFF;
   text-align: center;
   padding: 13px 23px;
   text-decoration: none;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 #main-menu a:hover,
@@ -448,7 +448,7 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
 
 #main-menu li li a.active{
   background: #ffca00;
-}
+}``
 
 .drop-down-toggle {
   position: absolute;
@@ -1696,4 +1696,16 @@ ul.menu li{
 #main-menu li a{
   background: #0062a6;
   list-style-type: none;
+}
+
+#block-views-sliderpequeno-block{
+  margin-top: 5.75em;
+}
+
+#block-views-sliderpequeno-block h3{
+  font-size: 20px;
+}
+
+#block-views-men-de-ayuda-block{
+  margin: 2em 0em;
 }
