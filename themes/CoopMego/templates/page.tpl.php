@@ -84,7 +84,7 @@
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
         <div id="site-description"><?php print $site_slogan; ?></div>
       </h1>
-      
+
     <div class="clear"></div>
     </header>
 
@@ -92,7 +92,7 @@
       <nav id="main-menu"  role="navigation">
         <a class="nav-toggle" href="#">Menu</a>
         <div class="menu-navigation-container">
-          <?php $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
+          <?php $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
             print drupal_render($main_menu_tree);
           ?>
         </div>
@@ -101,14 +101,14 @@
     </div>
   </div>
 </div>
-  
+
   <div id="container">
 
     <?php if ($is_front): ?>
     <?php print render($page['slideshow']); ?>
      <!-- Banner -->
 
-     <?php if ($page['top_first'] || $page['top_second'] || $page['top_third']): ?> 
+     <?php if ($page['top_first'] || $page['top_second'] || $page['top_third']): ?>
       <div id="top-area" class="clearfix">
         <?php if ($page['top_first']): ?>
         <div class="column"><?php print render($page['top_first']); ?></div>
@@ -142,13 +142,13 @@
         <?php print render($page['content']); ?>
       </section> <!-- /#main -->
     </div>
-  
+
     <?php if ($page['sidebar_first']): ?>
       <aside id="sidebar-first" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
-  
+
     </div>
 
     <?php if ($page['sidebar_second']): ?>
@@ -156,12 +156,12 @@
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
-  
+
 </div>
 
 <div id="footer">
   <div id="footer_wrapper">
-    <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?> 
+    <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?>
       <div id="footer-area" class="clearfix">
         <?php if ($page['footer_first']): ?>
         <div class="column"><?php print render($page['footer_first']); ?></div>
@@ -182,7 +182,7 @@
         <?php print render($page['footer']) ?>
       </div>
    <?php endif; ?>
-      
+
     <div id="copyright">
      <p class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?> </p> <p class="credits"> <?php print t('Designed by'); ?>  <a href="http://www.zymphonies.com">Zymphonies</a></p>
     <div class="clear"></div>
