@@ -442,10 +442,10 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
 
 #main-menu a:hover,
 #main-menu li a.active{
-  color: #FFF;
+  color: #FFFF;
   text-decoration: none;
-  background: #ffca00;
 }
+
 #main-menu li li a.active{
   background: #ffca00;
 }
@@ -1659,4 +1659,12 @@ ul.menu li{
 
 .parent-children-0 ul a{
   margin-left: 1em;
+}
+
+#main-menu .leaf a{
+  color: #FFFF;
+}
+
+#main-menu .leaf li a{
+  list-style-type: none;
 }
