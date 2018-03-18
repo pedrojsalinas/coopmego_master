@@ -198,8 +198,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/coopmego_master\/","pathPrefix":""
       U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";
     }while(ao<an);
     //var disc = "* Existen posibles variaciones (errores de redondeo)" + l + "este calculador sólo es una referencia";
-    document.am.ak.value=aH+header+Q+l+K+l+disc;document.am.al.value=ag+U+ae;  $("calculoFCE").set('html',ag+U+"<tr><td colspan='7'>"+disc+"</td>"+ae); return true;}
+    document.am.ak.value=aH+header+Q+l+K+l;document.am.al.value=ag+U+ae;  $("calculoFCE").set('html',ag+U+"<tr><td colspan='7'>"+"</td>"+ae); return true;}
 </script>
+
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
   </div>

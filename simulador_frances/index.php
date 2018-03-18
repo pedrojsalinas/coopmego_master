@@ -8,6 +8,7 @@
 <link rel="alternate" type="application/rss+xml" title="coopmego RSS" href="http://localhost/coopmego_master/rss.xml" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
 <title>coopmego</title>
+
 <style type="text/css" media="all">
 @import url("http://localhost/coopmego_master/modules/system/system.base.css?p5pqo8");
 @import url("http://localhost/coopmego_master/modules/system/system.menus.css?p5pqo8");
@@ -97,13 +98,177 @@ var s="&#36;";
 function iA(){
   this.length=iA.arguments.length;
   for(var i=0;i<this.length;i++){
-    this[i]=iA.arguments[i];}};var I=new iA(10);var f=new iA(16);I[0]=1;for(var i=0;i<9;i++){I[i+1]=I[i]*10;}f[0]=.1;f[1]=.01;f[2]=.001;f[3]=.0001;f[4]=.00001;f[5]=.000001;f[6]=.0000001;f[7]=.00000001;f[8]=.000000001;f[9]=.0000000001;f[10]=.00000000001;f[11]=.000000000001;f[12]=.0000000000001;f[13]=.00000000000001;f[14]=.000000000000001;f[15]=.0000000000000001;var C="01234567890";var t="";var c="";function stn(){D=0;pos=c.indexOf(".");o="";if(pos> -1){o=c.substring(pos+1,c.length);c=c.substring(0,pos);}T=c.length;for(var i=T-1;i> -1;i--){t=c.substring(i,i+1);pos=C.indexOf(t);D+=pos*I[T-i-1];}if(o!=""&&o.length>v){pos=C.indexOf(o.charAt(v+1));if(pos>4){pos=C.indexOf(o.charAt(v));o=o.substring(0,v-1)+(pos+1);}}if(o!=""){for(var i=0;i<v;i++){t=o.substring(i,i+1);pos=C.indexOf(t);D+=pos*f[i];}}};function testIt(form){c=document.A.g.value;fmtIt();V=c.length+3;v=2;stn();g=D;c=document.A.F.value;v=4;stn();F=D;c=document.A.r.value;v=0;stn();r=D;if(r<1||r>999||F<.0001||F>99||g<1||g>I[9]){alrt();}else{computeForm();}};function computeForm(){Q="";U="";L=1;i=((F/360)*365)/12/100;m=0;for(var G=0;G<r;G++)L=L*(1+i);ab=(g*L*i)/(L-1);m+=ab;ah=((r*m)-g);prtSched();};function prtSched(){m+=.01;c="";c+=m;fmtIt();v=2;stn();m=D;af=((F/360)*365)/12/100;if(V<14){V=14;}ag="<table border=1><tr><th>Cuota<br>Numero:</th><th>Cuota<br>Monto</th><th>Interes<br>Monto</th><th>Reduccion del<br>Capital</th><th>Capital<br>Adeudado</th></tr>";ae="</table>";Q="Cuotas: "+document.A.r.value+" Monto : "+s+document.A.g.value+" al "+document.A.F.value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero:        Monto        Monto         Capital       Adeudado"+l+K+l;ai=g;ac=ah+g;c="";c+=ac;fmtIt();ad=s+c;for(var G=0;G<r;G++){J=(g*af);c="";c+=J;fmtIt();O=s+c;H=m-J;if(H>g){H=g;}c="";c+=H;fmtIt();R=s+c;g-=H;c="";c+=g;fmtIt();aa=s+c;if(m>(J+H)){m=J+H;}c="";c+=m;fmtIt();P=s+c;c="";c+=(G+1)+".";Q+=b.substring(0,2)+c+b.substring(0,12-c.length)+P+b.substring(0,14-P.length)+O+b.substring(0,14-O.length)+R+b.substring(0,14-R.length)+aa+l;U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";}
+    this[i]=iA.arguments[i];
+  }
+};
+var I=new iA(10);
+var f=new iA(16);
+I[0]=1;
+for(var i=0;i<9;i++){
+  I[i+1]=I[i]*10;
+}
+f[0]=.1;f[1]=.01;f[2]=.001;f[3]=.0001;f[4]=.00001;f[5]=.000001;f[6]=.0000001;
+f[7]=.00000001;f[8]=.000000001;f[9]=.0000000001;f[10]=.00000000001;f[11]=.000000000001;f[12]=.0000000000001;
+f[13]=.00000000000001;f[14]=.000000000000001;f[15]=.0000000000000001;
+var C="01234567890";
+var t="";
+var c="";
+function stn(){
+  D=0;
+  pos=c.indexOf(".");
+  o="";
+  if(pos> -1){
+    o=c.substring(pos+1,c.length);
+    c=c.substring(0,pos);
+  }
+  T=c.length;
+  for(var i=T-1;i> -1;i--){
+    t=c.substring(i,i+1);
+    pos=C.indexOf(t);
+    D+=pos*I[T-i-1];
+  }
+  if(o!=""&&o.length>v){
+    pos=C.indexOf(o.charAt(v+1));
+    if(pos>4){
+      pos=C.indexOf(o.charAt(v));
+      o=o.substring(0,v-1)+(pos+1);
+    }
+  }
+  if(o!=""){
+    for(var i=0;i<v;i++){
+      t=o.substring(i,i+1);
+      pos=C.indexOf(t);
+      D+=pos*f[i];
+    }
+  }
+};
+function testIt(form){
+  c=document.A.g.value;
+  fmtIt();
+  V=c.length+3;
+  v=2;
+  stn();
+  g=D;
+  c=document.A.F.value;
+  v=4;
+  stn();
+  F=D;
+  c=document.A.r.value;
+  v=0;
+  stn();
+  r=D;
+  if(r<1||r>999||F<.0001||F>99||g<1||g>I[9]){
+    mensaje();
+  }else{
+    computeForm();
+  }
+};
+function computeForm(){
+  Q="";
+  U="";
+  L=1;
+  i=((F/360)*365)/12/100;
+  m=0;
+  for(var G=0;G<r;G++)L=L*(1+i);
+    ab=(g*L*i)/(L-1);
+  m+=ab;
+  ah=((r*m)-g);
+  prtSched();
+};
+function prtSched(){
+  m+=.01;
+  c="";
+  c+=m;
+  fmtIt();
+  v=2;
+  stn();
+  m=D;
+  af=((F/360)*365)/12/100;
+  if(V<14){
+    V=14;
+  }
+  ag="<table border=1><tr><th>Cuota<br>Numero:</th><th>Cuota<br>Monto</th><th>Interes<br>Monto</th><th>Reduccion del<br>Capital</th><th>Capital<br>Adeudado</th></tr>";
+  ae="</table>";
+  Q="Cuotas: "+document.A.r.value+" Monto : "+s+document.A.g.value+" al "+document.A.F.value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero:        Monto        Monto         Capital       Adeudado"+l+K+l;
+  ai=g;
+  ac=ah+g;
+  c="";
+  c+=ac;
+  fmtIt();
+  ad=s+c;
+  for(var G=0;G<r;G++){
+    J=(g*af);
+    c="";
+    c+=J;
+    fmtIt();
+    O=s+c;
+    H=m-J;
+    if(H>g){
+      H=g;
+    }
+    c="";
+    c+=H;
+    fmtIt();
+    R=s+c;
+    g-=H;
+    c="";
+    c+=g;
+    fmtIt();
+    aa=s+c;
+    if(m>(J+H)){
+      m=J+H;
+    }
+    c="";
+    c+=m;
+    fmtIt();
+    P=s+c;
+    c="";
+    c+=(G+1)+".";
+    Q+=b.substring(0,2)+c+b.substring(0,12-c.length)+P+b.substring(0,14-P.length)+O+b.substring(0,14-O.length)+R+b.substring(0,14-R.length)+aa+l;
+    U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";
+  }
 var disc = "  Monto total a pagar = " + ad + l;
   //+ "* Existen posibles variaciones (errores de redondeo) " + l
   //+ "este calculador sólo es una referencia";
   document.A.ak.value = Q + K + l + disc + l + K + l;
   document.A.al.value = ag + U + "<tr><td colspan='5'>"+disc+"</td></tr>" + ae;
- $('calculoFCE').set('html',document.A.al.value);};function fmtIt(){pos=c.indexOf(".");if(pos==0){c="0"+c;pos++;}if(pos<0){c+=".00";pos=c.indexOf(".");}c+="0000";c=c.substring(0,pos+4);t=c.charAt(c.length-1);pos=C.indexOf(t);c=c.substring(0,c.length-1);if(pos>5){fmtIt1();}};function fmtIt1(){for(var B=c.length-1;B> -1;B--){t=c.charAt(B);M=C.indexOf(t);if(M<0){B--;}else{c=c.substring(0,B)+C.substring(M+1,M+2)+c.substring(B+1,c.length);if(M!=9){B= -1;}}}};function alrt(){alert("Meses deben ser de"+" 1 a 999, Monto del Prestamo de 1 a "+I[9]+" y el Interes de .001 a 99%");}
+ $('calculoFCE').set('html',document.A.al.value);
+};
+function fmtIt(){
+  pos=c.indexOf(".");
+  if(pos==0){
+    c="0"+c;
+    pos++;
+  }
+  if(pos<0){
+    c+=".00";
+    pos=c.indexOf(".");
+  }
+  c+="0000";
+  c=c.substring(0,pos+4);
+  t=c.charAt(c.length-1);
+  pos=C.indexOf(t);
+  c=c.substring(0,c.length-1);
+  if(pos>5){
+    fmtIt1();
+  }
+};
+function fmtIt1(){
+  for(var B=c.length-1;B> -1;B--){
+    t=c.charAt(B);
+    M=C.indexOf(t);
+    if(M<0){
+      B--;
+    }else{
+      c=c.substring(0,B)+C.substring(M+1,M+2)+c.substring(B+1,c.length);
+      if(M!=9){B= -1;
+      }
+    }
+  }
+};
+function mensaje(){
+  alert("Meses deben ser de"+" 1 a 999, Monto del Prestamo de 1 a "+I[9]+" y el Interes de .001 a 99%");
+}
 </script>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
