@@ -549,7 +549,6 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
   margin: 0 auto;
   max-width: 80%;
   overflow: hidden;
-  padding: 1%;
   background: #fff;
 }
 
@@ -761,10 +760,6 @@ body.sidebar-second #content {
 
 body.sidebar-second #sidebar-second {
   width: 19%;
-}
-
-#post-content {
-  padding: 0 20px;
 }
 
 .breadcrumb {
@@ -1596,8 +1591,30 @@ ul.menu li{
   display: none;
 }
 
+#block-views-noticia-block-1 h2{
+  background: #ffce00;
+  color: #0062a6;
+  padding: 1em 0.80em;
+  font-weight: bold;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+#block-views-enlaces-de-interes-block{
+  margin-top: 1em;
+}
+
+#block-views-enlaces-de-interes-block h2{
+  background: #ffce00;
+  color: #0062a6;
+  padding: 1em 0.80em;
+  font-weight: bold;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
 .view-noticia{
-  margin: 4em auto;
+
 }
 
 .view-noticia table{
@@ -1642,10 +1659,6 @@ ul.menu li{
 .view-display-id-page a{
   font-weight: bold;
   color: #0062a6;
-}
-
-.view-enlaces-de-interes{
-  margin: 4em auto;
 }
 
 .view-enlaces-de-interes td{
