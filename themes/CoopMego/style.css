@@ -488,7 +488,6 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
   color: #C5C5C5;
   min-width: 150px;
   margin: 0;
-  background: rgb(30, 39, 48);
   border-top: 1px solid rgb(70, 69, 69);
   font-size: 11px;
   text-align: left;
@@ -502,8 +501,8 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
 }
 
 #main-menu li li a:hover {
-  background: rgb(52, 69, 82);
-  color: rgb(138, 138, 138);
+  background: #FFD54F;
+  color: #0062a6;
 }
 
 #main-menu li ul {
@@ -1619,12 +1618,11 @@ ul.menu li{
 }
 
 .view-noticia .field-content{
-  color: #ffff;
   margin-top: 1em;
   font-style: italic;
 }
 
-.view-noticia .field-content a{
+#block-views-noticia-block-1 .view-noticia .field-content a{
   font-weight: bold;
   color: #ffcb04;
 }
@@ -1632,9 +1630,18 @@ ul.menu li{
 .view-noticia td{
   width: 20%;
   text-align: center;
-  background: #0062a6;
   border-radius: 10px;
   padding: 1em;
+}
+
+#block-views-noticia-block-1 .view-noticia td{
+  background: #0062a6;
+  color: #ffff;
+}
+
+.view-display-id-page a{
+  font-weight: bold;
+  color: #0062a6;
 }
 
 .view-enlaces-de-interes{
@@ -1665,6 +1672,7 @@ ul.menu li{
   color: #FFFF;
 }
 
-#main-menu .leaf li a{
+#main-menu li a{
+  background: #0062a6;
   list-style-type: none;
 }
