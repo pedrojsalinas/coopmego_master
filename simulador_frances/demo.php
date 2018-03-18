@@ -5,15 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es">
 
 <head>
-  <base href="http://www.econ.unicen.edu.ar/graduados/index.php/sistema-frances" />
+  <base href="http://www.econ.unicen.edu.ar/graduados/index.php/sistema-aleman" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="FCE, Economicas, Graduados" />
-  <meta name="title" content="Calculá tu préstamo - Sistema Francés" />
+  <meta name="title" content="Calculá tu Préstamo - Sistema Alemán" />
   <meta name="author" content="Lucas Vidaguren" />
   <meta name="description" content="Pagina de Graduados de la Facultad de Ciencias Economicas." />
   <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
-  <title>Calculá tu préstamo - Sistema Francés</title>
+  <title>Calculá tu Préstamo - Sistema Alemán</title>
   <link href="/graduados/templates/ja_ores/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <link rel="stylesheet" href="/graduados/media/system/css/modal.css" type="text/css" />
   <link rel="stylesheet" href="http://www.econ.unicen.edu.ar/graduados/components/com_k2/css/k2.css" type="text/css" />
@@ -166,7 +166,7 @@ var tmplurl='http://www.econ.unicen.edu.ar/graduados/templates/ja_ores';
 
 
 <ul class="no-display">
-    <li><a href="/graduados/index.php/sistema-frances/sistema-frances#ja-content" title="Skip to content">Skip to content</a></li>
+    <li><a href="/graduados/index.php/sistema-aleman/sistema-aleman#ja-content" title="Skip to content">Skip to content</a></li>
 </ul>
 
 	<!-- //MAIN NAVIGATION -->
@@ -194,7 +194,7 @@ var tmplurl='http://www.econ.unicen.edu.ar/graduados/templates/ja_ores';
 
 
 <h2 class="contentheading clearfix">
-			Calculá tu préstamo - Sistema Francés	</h2>
+			Calculá tu Préstamo - Sistema Alemán	</h2>
 
 
 <div class="article-tools clearfix">
@@ -206,13 +206,13 @@ var tmplurl='http://www.econ.unicen.edu.ar/graduados/templates/ja_ores';
 	
 		<div class="buttonheading">
 								<span>
-			<a href="/graduados/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5lY29uLnVuaWNlbi5lZHUuYXIvZ3JhZHVhZG9zL2luZGV4LnBocC9zaXN0ZW1hLWZyYW5jZXM%3D" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/graduados/templates/ja_ores/images/emailButton.png" alt="E-mail"  /></a>			</span>
+			<a href="/graduados/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5lY29uLnVuaWNlbi5lZHUuYXIvZ3JhZHVhZG9zL2luZGV4LnBocC9zaXN0ZW1hLWFsZW1hbg%3D%3D" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/graduados/templates/ja_ores/images/emailButton.png" alt="E-mail"  /></a>			</span>
 			
 						<span>
-			<a href="/graduados/index.php/sistema-frances?tmpl=component&amp;print=1&amp;page=" title="Imprimir" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/graduados/templates/ja_ores/images/printButton.png" alt="Imprimir"  /></a>			</span>
+			<a href="/graduados/index.php/sistema-aleman?tmpl=component&amp;print=1&amp;page=" title="Imprimir" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/graduados/templates/ja_ores/images/printButton.png" alt="Imprimir"  /></a>			</span>
 			
 						<span>
-			<a href="/graduados/index.php/sistema-frances?format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/graduados/templates/ja_ores/images/pdf_button.png" alt="PDF"  /></a>			</span>
+			<a href="/graduados/index.php/sistema-aleman?format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/graduados/templates/ja_ores/images/pdf_button.png" alt="PDF"  /></a>			</span>
 						</div>
 	
 		
@@ -222,53 +222,45 @@ var tmplurl='http://www.econ.unicen.edu.ar/graduados/templates/ja_ores';
 <div class="article-content">
 
 
-<script language="JavaScript">
-var D=0;var g=0;var F=0;var r=0;var aj="";var l="\r";var b="                               ";var K="____________________________"+"___________________________";var s="&#36;";function iA(){this.length=iA.arguments.length;for(var i=0;i<this.length;i++){this[i]=iA.arguments[i];}};var I=new iA(10);var f=new iA(16);I[0]=1;for(var i=0;i<9;i++){I[i+1]=I[i]*10;}f[0]=.1;f[1]=.01;f[2]=.001;f[3]=.0001;f[4]=.00001;f[5]=.000001;f[6]=.0000001;f[7]=.00000001;f[8]=.000000001;f[9]=.0000000001;f[10]=.00000000001;f[11]=.000000000001;f[12]=.0000000000001;f[13]=.00000000000001;f[14]=.000000000000001;f[15]=.0000000000000001;var C="01234567890";var t="";var c="";function stn(){D=0;pos=c.indexOf(".");o="";if(pos> -1){o=c.substring(pos+1,c.length);c=c.substring(0,pos);}T=c.length;for(var i=T-1;i> -1;i--){t=c.substring(i,i+1);pos=C.indexOf(t);D+=pos*I[T-i-1];}if(o!=""&&o.length>v){pos=C.indexOf(o.charAt(v+1));if(pos>4){pos=C.indexOf(o.charAt(v));o=o.substring(0,v-1)+(pos+1);}}if(o!=""){for(var i=0;i<v;i++){t=o.substring(i,i+1);pos=C.indexOf(t);D+=pos*f[i];}}};function testIt(form){c=document.A.g.value;fmtIt();V=c.length+3;v=2;stn();g=D;c=document.A.F.value;v=4;stn();F=D;c=document.A.r.value;v=0;stn();r=D;if(r<1||r>999||F<.0001||F>99||g<1||g>I[9]){alrt();}else{computeForm();}};function computeForm(){Q="";U="";L=1;i=((F/360)*365)/12/100;m=0;for(var G=0;G<r;G++)L=L*(1+i);ab=(g*L*i)/(L-1);m+=ab;ah=((r*m)-g);prtSched();};function prtSched(){m+=.01;c="";c+=m;fmtIt();v=2;stn();m=D;af=((F/360)*365)/12/100;if(V<14){V=14;}ag="<table border=1><tr><th>Cuota<br>Numero:</th><th>Cuota<br>Monto</th><th>Interes<br>Monto</th><th>Reduccion del<br>Capital</th><th>Capital<br>Adeudado</th></tr>";ae="</table>";Q="Cuotas: "+document.A.r.value+" Monto : "+s+document.A.g.value+" al "+document.A.F.value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero:        Monto        Monto         Capital       Adeudado"+l+K+l;ai=g;ac=ah+g;c="";c+=ac;fmtIt();ad=s+c;for(var G=0;G<r;G++){J=(g*af);c="";c+=J;fmtIt();O=s+c;H=m-J;if(H>g){H=g;}c="";c+=H;fmtIt();R=s+c;g-=H;c="";c+=g;fmtIt();aa=s+c;if(m>(J+H)){m=J+H;}c="";c+=m;fmtIt();P=s+c;c="";c+=(G+1)+".";Q+=b.substring(0,2)+c+b.substring(0,12-c.length)+P+b.substring(0,14-P.length)+O+b.substring(0,14-O.length)+R+b.substring(0,14-R.length)+aa+l;U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";}
-var disc = "  Monto total a pagar = " + ad + l
-	+ "* Existen posibles variaciones (errores de redondeo) " + l
-	+ "este calculador sólo es una referencia";
-	document.A.ak.value = Q + K + l + disc + l + K + l;
-	document.A.al.value = ag + U + "<tr><td colspan='5'>"+disc+"</td></tr>" + ae;
- $('calculoFCE').set('html',document.A.al.value);};function fmtIt(){pos=c.indexOf(".");if(pos==0){c="0"+c;pos++;}if(pos<0){c+=".00";pos=c.indexOf(".");}c+="0000";c=c.substring(0,pos+4);t=c.charAt(c.length-1);pos=C.indexOf(t);c=c.substring(0,c.length-1);if(pos>5){fmtIt1();}};function fmtIt1(){for(var B=c.length-1;B> -1;B--){t=c.charAt(B);M=C.indexOf(t);if(M<0){B--;}else{c=c.substring(0,B)+C.substring(M+1,M+2)+c.substring(B+1,c.length);if(M!=9){B= -1;}}}};function alrt(){alert("Meses deben ser de"+" 1 a 999, Monto del Prestamo de 1 a "+I[9]+" y el Interes de .001 a 99%");}
+<script type="text/javascript">
+var c;var C="01234567890";var K="_______________________________________"+"______________________________________";function alrt(){alert("Prestamo debe ser de 1 a 1000000000, Tasa de Interes de .01 a 99"+" y los Periodos deben ser de 1 a 999");};function fmtIt(){pos=c.indexOf(".");if(pos==0){c="0"+c;pos++;}if(pos<0){c+=".00";pos=c.indexOf(".");}c+="0000";c=c.substring(0,pos+4);t=c.charAt(c.length-1);pos=C.indexOf(t);c=c.substring(0,c.length-1);if(pos>5){fmtIt1();}};function fmtIt1(){for(var B=c.length-1;B> -1;B--){t=c.charAt(B);M=C.indexOf(t);if(M<0){B--;}else{c=c.substring(0,B)+C.substring(M+1,M+2)+c.substring(B+1,c.length);if(M!=9){B= -1;}}}};function roundOff(value,aB){value=""+value;aB=parseInt(aB);var aq=""+Math.round(value*Math.pow(10,aB));var aD=aq.length-aB;if(aD!=0){result=aq.substring(0,aD);result+=".";result+=aq.substring(aD,aq.length);}else{result=aq;}return result;};function calcIt(){var aL,ar,aw,an,ao,aG,ap,aC,az,aE,aF,av;var ax,aA,ay,at,au,as;var header;var ag="<table border=1><tr><th>Cuota</th><th>Monto<br> Inicial</th><th>Monto<br>Final</th><th>Capital</th><th>Interes</th><th>Cuota</th><th>Total</th></tr>";var ae="</table>";var aH="";var b="                               ";var Q="";var U="";var l="\r";ar=document.am.aJ.value;aw=document.am.aI.value;an=document.am.aK.value;if(an<1||an>999||aw<.01||aw>99||ar<1||ar>1000000000){alrt();return false;}aH="Cuotas : "+document.am.aK.value+" Monto:  $ "+document.am.aJ.value+" al "+document.am.aI.value+"%."+l+K+l;ao=0;aG=aw/100/360*365;ap=ar;az=ar/an;av=0;header="Cuota Monto Inicial  Monto Final  Capital   Interes   Cuota         Total"+l+K+l;do{aE=ap*(aG/12);aF=az+aE;aC=ap-az;av=av+aF;c="";c+=roundOff(ap,2);fmtIt();ax=c;c="";c+=roundOff(aC,2);fmtIt();aA=c;c="";c+=roundOff(az,2);fmtIt();ay=c;c="";c+=roundOff(aE,2);fmtIt();at=c;c="";c+=roundOff(aF,2);fmtIt();au=c;c="";c+=roundOff(av,2);fmtIt();as=c;ap=aC;c=""+(++ao);Q+=b.substring(0,5-c.length)+ao+b.substring(0,12-ax.length)+ax+b.substring(0,14-aA.length)+aA+b.substring(0,10-ay.length)+ay+b.substring(0,10-at.length)+at+b.substring(0,10-au.length)+au+b.substring(0,14-as.length)+as+l;U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";}while(ao<an);var disc = "* Existen posibles variaciones (errores de redondeo)" + l + "este calculador sólo es una referencia";document.am.ak.value=aH+header+Q+l+K+l+disc;document.am.al.value=ag+U+ae;  $("calculoFCE").set('html',ag+U+"<tr><td colspan='7'>"+disc+"</td>"+ae); return true;}
 </script>
-<form method="post" name="A" id="A">
+
+<form method="post" name="am" id="am">
                             <table width="488" border="0" cellpadding="0" cellspacing="0">
                               <!--DWLayoutTable-->
                               <tbody><tr>
-                                <td width="141" height="32" valign="middle" bgcolor="#DFDAD0"><span class="Estilo42">Monto Total: $
-                              <input name="g" type="text" id="g" value="1000" size="7">
+                                <td width="164" height="32" valign="middle" bgcolor="#DFDAD0"><span class="Estilo42">Monto Total: $
+                                  <input name="aJ" type="text" id="aJ" value="1000" size="7">
                                   </span><span class="Estilo41">
                                     <label></label>
                                     </span></td>
-                                <td width="144" valign="middle" bgcolor="#DFDAD0"><div align="center"><span class="Estilo42">Períodos : </span><span class="Estilo41">
-                                  <input name="r" type="text" id="r" value="18" size="7">
+                                <td width="121" valign="middle" bgcolor="#DFDAD0"><div align="center"><span class="Estilo42">Períodos: </span><span class="Estilo41">
+                                  <input name="aK" type="text" id="aK" value="18" size="7">
                                 </span></div></td>
                                 <td width="203" valign="middle" bgcolor="#DFDAD0"><div align="center"><span class="Estilo40"><span class="Estilo41">Tasa de Interés :</span><span class="Estilo38">
-                                  <input name="F" type="text" id="F" value="5.4" size="7">
+                                  <input name="aI" type="text" id="aI" value="5.4" size="7">
                                   %
                                 </span></span></div></td>
-                              </tr>
+                                </tr>
                               <tr>
                                 <td height="43" colspan="3" bgcolor="#F1EFEB"><label>
                                   <div align="center">
-                                    <input onclick="testIt(this.form)" value="Calcular" type="button">
+                                    <input language="JavaScript" onclick="calcIt()" value="Calcular" type="button" name="xx">
                                   </div>
                                 </label></td>
-                              </tr>
+                                </tr>
                               <tr>
-                                <td colspan="3" bgcolor="#FAF9F8"><div align="center">
-                                  <textarea style="display:none" cols="65" name="ak" rows="22" id="ak"></textarea>
-                                  <input name="al" type="hidden" id="al" value="">
+                                <td  colspan="3" bgcolor="#FAF9F8"><div align="center">
+                                  <textarea style="display:none;" cols="78" name="ak" rows="22" id="ak"></textarea>
+                                  <input name="al" type="hidden" id="al">
                                   </div></td>
-                              </tr>
+                                </tr>
                             </tbody></table>
-                                          </form>
+                                          </form>     
 <div id="calculoFCE"></div>
-
 <a href="http://agceta.com.ar/herramientas_financieras.php">Herramientas financieras de la Asociación Graduados Ciencias Económicas de Tres arroyos</a></div>
 
-	<span class="modifydate">
-			</span>
 
 
 					</div>
@@ -330,7 +322,7 @@ var disc = "  Monto total a pagar = " + ad + l
 		</ul>
 		
 		<ul class="no-display">
-			<li><a href="/graduados/index.php/sistema-frances/sistema-frances#ja-content" title="Skip to content">Skip to content</a></li>
+			<li><a href="/graduados/index.php/sistema-aleman/sistema-aleman#ja-content" title="Skip to content">Skip to content</a></li>
 		</ul>
 	</div>
 
@@ -353,7 +345,7 @@ var disc = "  Monto total a pagar = " + ad + l
 			<div class="ja-moduletable moduletable  clearfix" id="Mod99">
 						<h3 class="clearfix"><span>Calculá tu Préstamo</span></h3>
 				<div class="ja-box-ct clearfix">
-		<ul class="menu"><li id="current" class="active item176"><a href="/graduados/index.php/sistema-frances"><span>Sistema Francés</span></a></li><li class="item177"><a href="/graduados/index.php/sistema-aleman"><span>Sistema Alemán</span></a></li></ul>		</div>
+		<ul class="menu"><li class="item176"><a href="/graduados/index.php/sistema-frances"><span>Sistema Francés</span></a></li><li id="current" class="active item177"><a href="/graduados/index.php/sistema-aleman"><span>Sistema Alemán</span></a></li></ul>		</div>
     </div>
 	
 	</div>
