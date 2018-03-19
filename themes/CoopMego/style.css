@@ -137,6 +137,7 @@ h6 {
 
 p {
   margin-bottom:18px;
+  font-size: 1.3em;
 }
 
 table {
@@ -415,13 +416,16 @@ audio {
   margin:0;
   font-size: 14px;
 }
+#main-menu ul li:hover {
+  background: #ffca00;
+}
+
 
 #main-menu ul li:first-child {
   padding-left:0;
 }
 
 ul, ol, div.item-list ul{
-  margin: 5px 0 5px 0;
   padding: 0;
 }
 
@@ -442,15 +446,18 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
   text-transform: uppercase;
 }
 
-#main-menu a:hover,
+#main-menu a:hover{
+  background: #ffca00;
+}
 #main-menu li a.active{
   color: #FFFF;
   text-decoration: none;
 }
 
+
 #main-menu li li a.active{
   background: #ffca00;
-}``
+}
 
 .drop-down-toggle {
   position: absolute;
@@ -781,9 +788,14 @@ body.sidebar-second #sidebar-second {
 }
 
 .node h2.title, .page-title {
-  font-size: 20px;
   margin-top: 1em;
   margin-bottom: 1em;
+font-family: Verdana, Geneva, sans-serif;
+line-height: 30px;
+font-weight: 700;
+font-style: normal;
+color: #0065bd;
+font-size: 25px;
 }
 
 .node h2.title a{
@@ -791,7 +803,8 @@ body.sidebar-second #sidebar-second {
 }
 
 .block {
-  margin-bottom: 1%;
+  margin-bottom: 4%;
+
 }
 
 .block > h2{
@@ -1645,8 +1658,9 @@ ul.menu li{
 }
 
 .view-noticia .field-content{
-  margin-top: 1em;
-  font-style: italic;
+  margin-top: 0.2em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
 }
 
 #block-views-noticia-block-1 .view-noticia .field-content a{
@@ -1655,14 +1669,13 @@ ul.menu li{
 }
 
 .view-noticia td{
-  width: 20%;
+  width: 25%;
   text-align: center;
   border-radius: 10px;
-  padding: 1em;
 }
 
 #block-views-noticia-block-1 .view-noticia td{
-  background: #0062a6;
+  background:  #0062a6;
   color: #ffff;
 }
 
@@ -1685,6 +1698,7 @@ ul.menu li{
 
 #footer-sitemap ul li{
   float: none;
+  margin-left: 2em;
 }
 
 .parent-children-0 ul a{
@@ -1702,12 +1716,20 @@ ul.menu li{
 
 #block-views-sliderpequeno-block{
   margin-top: 5.75em;
+  border-style: solid;
+ padding: 12px;
+ border: 0.1px solid rgba(136,136,136,0.3);
+}
+#block-views-men-de-ayuda-block{
+    border-style: solid;
+ padding: 12px;
+ border: 0.1px solid rgba(136,136,136,0.3);
 }
 
 #block-views-sliderpequeno-block h3{
   font-size: 20px;
 }
 
-#block-views-men-de-ayuda-block{
-  margin: 2em 0em;
+#pdf_reader{
+  width: 90%;
 }
