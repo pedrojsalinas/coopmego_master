@@ -1,4 +1,4 @@
-
+  
 /* --------------------------------------------- 
 
 * Filename:     custom.js
@@ -22,10 +22,7 @@ jQuery(document).ready(function($) {
   select.addEventListener('change',
   function(){
     var selectedOption = this.options[select.selectedIndex];
-    //console.log(selectedOption.text);
-  
     if (selectedOption.text=='Frances') {
-      console.log('Amortizacion francesa escogida');
       var D=0;
         var g=0;
         var F=0;
@@ -83,7 +80,6 @@ jQuery(document).ready(function($) {
           }
         };
         function computeForm(){
-          console.log('entra al compute form');
           Q="";
           U="";
           L=1;
@@ -107,9 +103,9 @@ jQuery(document).ready(function($) {
           if(V<14){
             V=14;
           }
-          ag="<table border=1><tr><th>Cuota<br>Numero:</th><th>Cuota<br>Monto</th><th>Interes<br>Monto</th><th>Reduccion del<br>Capital</th><th>Capital<br>Adeudado</th></tr>";
+          ag="<table border=1><tr><th class='cabecera'>Cuota<br>Numero</th><th class='cabecera'>Cuota<br>Monto</th><th class='cabecera'>Interes<br>Monto</th><th class='cabecera'>Reduccion del<br>Capital</th><th class='cabecera'>Capital<br>Adeudado</th></tr>";
           ae="</table>";
-          Q="Cuotas: "+document.getElementById('edit-submitted-interes').value+" Monto : "+s+document.getElementById('edit-submitted-monto').value+" al "+document.getElementById('edit-submitted-plazo-meses').value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero:        Monto        Monto         Capital       Adeudado"+l+K+l;
+          Q="Cuotas: "+document.getElementById('edit-submitted-interes').value+" Monto : "+s+document.getElementById('edit-submitted-monto').value+" al "+document.getElementById('edit-submitted-plazo-meses').value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero        Monto        Monto         Capital       Adeudado"+l+K+l;
           ai=g;
           ac=ah+g;
           c="";
@@ -145,20 +141,16 @@ jQuery(document).ready(function($) {
             c="";
             c+=(G+1)+".";
             Q+=b.substring(0,2)+c+b.substring(0,12-c.length)+P+b.substring(0,14-P.length)+O+b.substring(0,14-O.length)+R+b.substring(0,14-R.length)+aa+l;
-            //U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";
+            U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";
           }
+
           var disc = "  Monto total a pagar = " + ad + l;
-          //+ "* Existen posibles variaciones (errores de redondeo) " + l
-          //+ "este calculador sólo es una referencia";
-          //document.A.ak.value = Q + K + l + disc + l + K + l;
-          //alert(disc);
-          document.getElementById('edit-submitted-tabla-de-amortizacion').value= Q + K + l + disc + l + K + l;
-          document.getElementById('edit-submitted-tabla-de-amortizacion').disabled = true;
+          var temporal = $('.form-textarea-wrapper.resizable.textarea-processed.resizable-textarea');
+          temporal.attr('id','tablas');
+          var tabla = document.getElementById('tablas');
+          tabla.innerHTML ="<table>"+ag + U + "<tr><td colspan='5'>"+disc+"</td></tr>" + ae+"</table>";
           event.preventDefault();
           return true;
-
-          //document.A.al.value = ag + U + "<tr><td colspan='5'>"+disc+"</td></tr>" + ae;
-         //$('calculoFCE').set('html',document.A.al.value);
         };
         function fmtIt(){
           pos=c.indexOf(".");
@@ -281,7 +273,7 @@ jQuery(document).ready(function($) {
         var aL,ar,aw,an,ao,aG,ap,aC,az,aE,aF,av;
     var ax,aA,ay,at,au,as;
     var header;
-    var ag="<table border=1><tr><th>Cuota</th><th>Monto<br> Inicial</th><th>Monto<br>Final</th><th>Capital</th><th>Interes</th><th>Cuota</th><th>Total</th></tr>";
+    var ag="<table border=1><tr><th class='cabecera'>Cuota</th><th class='cabecera'>Monto<br> Inicial</th><th class='cabecera'>Monto<br>Final</th><th class='cabecera'>Capital</th><th class='cabecera'>Interes</th><th class='cabecera'>Cuota</th><th class='cabecera'>Total</th></tr>";
     var ae="</table>";
     var aH="";
     var b="                               ";
@@ -342,13 +334,17 @@ jQuery(document).ready(function($) {
       ap=aC;
       c=""+(++ao);
       Q+=b.substring(0,5-c.length)+ao+b.substring(0,12-ax.length)+ax+b.substring(0,14-aA.length)+aA+b.substring(0,10-ay.length)+ay+b.substring(0,10-at.length)+at+b.substring(0,10-au.length)+au+b.substring(0,14-as.length)+as+l;
-      //U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";
+      U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";
     }while(ao<an);
     //var disc = "* Existen posibles variaciones (errores de redondeo)" + l + "este calculador sólo es una referencia";
-    document.getElementById('edit-submitted-tabla-de-amortizacion').value=aH+header+Q+l+K+l;
+    //document.getElementById('edit-submitted-tabla-de-amortizacion').value=aH+header+Q+l+K+l;
     //document.am.ak.value=aH+header+Q+l+K+l;
     //document.am.al.value=ag+U+ae;  
-    document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
+    //document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
+    var temporal = $('.form-textarea-wrapper.resizable.textarea-processed.resizable-textarea');
+    temporal.attr('id','tablas');
+    var tabla = document.getElementById('tablas');
+    tabla.innerHTML ="<table>"+ag+U+ae+"</table>";
     event.preventDefault();
     return true;
   
