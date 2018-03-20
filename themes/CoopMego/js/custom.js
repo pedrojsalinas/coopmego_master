@@ -13,6 +13,11 @@
 
 jQuery(document).ready(function($) {
   console.log('entra1');
+  var by = document.getElementById('copyright');
+  console.log(by.innerHTML);
+  var copyright = "<p class='copyright'>Copyright © 2018  </p> ";
+  var designed = "<p class='credits'> Designed by  <a href='#'>Charlie - Pedro - Willy</a></p>"; 
+  by.innerHTML = copyright+designed+"<div class='clear'></div>";
   document.getElementById('edit-submitted-tabla-de-amortizacion').value='La tabla de Amortizacion se mostrará aquí';
   document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
   var select = document.getElementById('edit-submitted-seleccione-el-tipo-de-amortizacion');
