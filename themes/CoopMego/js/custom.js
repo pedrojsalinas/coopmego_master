@@ -12,11 +12,9 @@
 -----------------------------------------------*/
 
 jQuery(document).ready(function($) {
-  console.log('entra1');
   var by = document.getElementById('copyright');
-  console.log(by.innerHTML);
   var copyright = "<p class='copyright'>Copyright © 2018  </p> ";
-  var designed = "<p class='credits'> Designed by  <a href='#'>Charlie - Pedro - Willy</a></p>"; 
+  var designed = "<p class='credits'> Designed by  <a href='#'> Charlie - Pedro - Willy</a></p>"; 
   by.innerHTML = copyright+designed+"<div class='clear'></div>";
   document.getElementById('edit-submitted-tabla-de-amortizacion').value='La tabla de Amortizacion se mostrará aquí';
   document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
@@ -344,7 +342,7 @@ jQuery(document).ready(function($) {
       ap=aC;
       c=""+(++ao);
       Q+=b.substring(0,5-c.length)+ao+b.substring(0,12-ax.length)+ax+b.substring(0,14-aA.length)+aA+b.substring(0,10-ay.length)+ay+b.substring(0,10-at.length)+at+b.substring(0,10-au.length)+au+b.substring(0,14-as.length)+as+l;
-      U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";
+      //U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";
     }while(ao<an);
     //var disc = "* Existen posibles variaciones (errores de redondeo)" + l + "este calculador sólo es una referencia";
     document.getElementById('edit-submitted-tabla-de-amortizacion').value=aH+header+Q+l+K+l;
