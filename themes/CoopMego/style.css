@@ -90,13 +90,8 @@ body {
   line-height:160%;
 }
 
-<<<<<<< HEAD
-=======
-#edit-submitted-monto, #edit-submitted-plazo-meses,#edit-submitted-tipo-de-garantia,#edit-submitted-tipo-de-amortizacion{
-  width: 25%;
-}
 
->>>>>>> 014ebda22d928b7398ab8ae682fc516a4be2cc63
+
 a {
   color: #0062a6;
   font-weight: bold;
@@ -1341,7 +1336,7 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 
 .form-type-radio .description, .form-type-checkbox .description { margin-left: 2px; }
 
-.form-actions { padding-top: 10px; }
+.form-actions { padding-top: 10px; text-align: center;}
 
 /* Form Buttons */
 
@@ -1854,21 +1849,63 @@ ul.menu li{
   }
 
 }
+#edit-submitted-monto, #edit-submitted-plazo-meses,#edit-submitted-interes,#edit-submitted-seleccione-el-tipo-de-amortizacion{
+  width: 40%;
+   line-height: 1.4;
+   border: 1px solid #0062A6;
+   border-radius: 3px;
+   color: #ffca00;
+   text-align: center;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
 #edit-submitted-tabla-de-amortizacion{
-  width: 80%;
+  width: 100%;
+  height: 20em;
   border: 1px solid #0062A6;
   display: block;
   color: #0062A6;
+  text-align: center;
+}
+label{
+  color:  #0062A6;
+}
+.form-item.webform-component.webform-component-number.webform-component--monto{
+  
 }
 #edit-submitted-monto:focus,#edit-submitted-plazo-meses:focus,#edit-submitted-interes:focus,#edit-submitted-seleccione-el-tipo-de-amortizacion:focus{
   outline: 0;
-  border-color: #ffca00
-}
-input:focus {
-  outline: 0;
   border-color: #ffca00;
 }
-
+.form-textarea-wrapper.resizable.textarea-processed.resizable-textarea{
+  width: 100%;
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+.webform-submit.button-primary.form-submit{
+  background: #0062A6;
+  color: #ffffff;
+  width: 20%;
+  padding: 1em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.webform-submit.button-primary.form-submit:hover{
+  outline: 0;
+  background: #ffca00;
+  color: #0062A6;
+}
+.grippie{
+  width: 100%;
+}
 span.submitted{
   display: none;
 }
+#post-content{
+  text-align:center;
+}
+
