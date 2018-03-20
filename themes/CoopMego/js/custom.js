@@ -141,14 +141,14 @@ jQuery(document).ready(function($) {
             c="";
             c+=(G+1)+".";
             Q+=b.substring(0,2)+c+b.substring(0,12-c.length)+P+b.substring(0,14-P.length)+O+b.substring(0,14-O.length)+R+b.substring(0,14-R.length)+aa+l;
-            U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";
+            U+="<tr><td class='fondo_tabla'>"+(G+1)+"</td><td class='fondo_tabla'>"+P+"</td><td class='fondo_tabla'>"+O+"</td><td class='fondo_tabla'>"+R+"</td><td class='fondo_tabla'>"+aa+"</td></tr>";
           }
 
           var disc = "  Monto total a pagar = " + ad + l;
           var temporal = $('.form-textarea-wrapper.resizable.textarea-processed.resizable-textarea');
           temporal.attr('id','tablas');
           var tabla = document.getElementById('tablas');
-          tabla.innerHTML ="<table>"+ag + U + "<tr><td colspan='5'>"+disc+"</td></tr>" + ae+"</table>";
+          tabla.innerHTML ="<table>"+ag + U + "<tr><td class='total' colspan='5'>"+disc+"</td></tr>" + ae+"</table>";
           event.preventDefault();
           return true;
         };
@@ -334,7 +334,7 @@ jQuery(document).ready(function($) {
       ap=aC;
       c=""+(++ao);
       Q+=b.substring(0,5-c.length)+ao+b.substring(0,12-ax.length)+ax+b.substring(0,14-aA.length)+aA+b.substring(0,10-ay.length)+ay+b.substring(0,10-at.length)+at+b.substring(0,10-au.length)+au+b.substring(0,14-as.length)+as+l;
-      U+="<tr><td>"+ao+"</td><td>"+ax+"</td><td>"+aA+"</td><td>"+ay+"</td><td>"+at+"</td><td>"+au+"</td><td>"+as+"</td></tr>";
+      U+="<tr><td class='fondo_tabla'>"+ao+"</td><td class='fondo_tabla'>"+ax+"</td><td class='fondo_tabla'>"+aA+"</td><td class='fondo_tabla'>"+ay+"</td><td class='fondo_tabla'>"+at+"</td><td class='fondo_tabla'>"+au+"</td><td class='fondo_tabla'>"+as+"</td></tr>";
     }while(ao<an);
     //var disc = "* Existen posibles variaciones (errores de redondeo)" + l + "este calculador sólo es una referencia";
     //document.getElementById('edit-submitted-tabla-de-amortizacion').value=aH+header+Q+l+K+l;
