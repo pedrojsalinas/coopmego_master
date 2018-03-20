@@ -1668,6 +1668,8 @@ ul.menu li{
 
 .view-noticia table a{
   font-size: 15px;
+  text-decoration: none;
+  
 }
 
 .view-noticia .field-content{
@@ -1679,6 +1681,7 @@ ul.menu li{
 #block-views-noticia-block-1 .view-noticia .field-content a{
   font-weight: bold;
   color: #ffcb04;
+  text-decoration: none;
 }
 
 .view-noticia td{
