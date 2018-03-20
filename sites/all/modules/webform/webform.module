@@ -1886,6 +1886,7 @@ function webform_user_role_delete($role) {
 /**
  * Implements hook_form_alter().
  */
+/*hola charlie*/
 function webform_form_alter(&$form, $form_state, $form_id) {
   if (isset($form['#node']->type) && $form_id == $form['#node']->type . '_node_form' && variable_get('webform_node_' . $form['#node']->type, FALSE)) {
     $node = $form['#node'];

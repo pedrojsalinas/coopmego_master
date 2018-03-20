@@ -91,7 +91,6 @@ body {
 }
 
 #edit-submitted-monto, #edit-submitted-plazo-meses,#edit-submitted-tipo-de-garantia,#edit-submitted-tipo-de-amortizacion{
-  background: red;
   width: 25%;
 }
 
@@ -160,11 +159,13 @@ th, tr, td {
 }
 
 table {
+  text-align: center;
   background: #ececec;
   border: 1px solid #bbbbbb;
 }
 
 th {
+  text-align: center;
   background: #dbdbdb;
   padding: 5px 4px;
   text-shadow: 1px 1px #fff;
@@ -173,8 +174,8 @@ th {
 }
 
 td {
+  text-align: center;
   color: #747474;
-  text-align: left;
   padding-left: 4px;
 }
 
@@ -1743,6 +1744,7 @@ ul.menu li{
   width: 90%;
 }
 
+<<<<<<< HEAD
 .footer_credit{
   display: none;
 }
@@ -1857,3 +1859,47 @@ ul.menu li{
   }
 
 }
+=======
+input,
+input[type="radio"] + label,
+input[type="checkbox"] + label:before,
+select option,
+select {
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+input[type=text]{
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+input:focus {
+  outline: 0;
+  border-color: #64ac15;
+}
+input:focus + .input-icon i {
+  color: #7ed321;
+}
+input:focus + .input-icon:after {
+  border-right-color: #7ed321;
+}
+
+
+>>>>>>> 4fa37b0294a7a237d75473b462f47c4fb9b58a74
