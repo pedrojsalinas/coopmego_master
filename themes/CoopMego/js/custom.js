@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
         var l="\r";
         var b="                               ";
         var K="____________________________"+"___________________________";
-        var s="&#36;";
+        var s="$ ";
         function iA(){
         this.length=iA.arguments.length;
           for(var i=0;i<this.length;i++){
@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
           }
           ag="<table border=1><tr><th>Cuota<br>Numero:</th><th>Cuota<br>Monto</th><th>Interes<br>Monto</th><th>Reduccion del<br>Capital</th><th>Capital<br>Adeudado</th></tr>";
           ae="</table>";
-          Q="Cuotas: "+document.getElementById('edit-submitted-interes').value;+" Monto : "+s+document.getElementById('edit-submitted-monto').value+" al "+document.getElementById('edit-submitted-plazo-meses').value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero:        Monto        Monto         Capital       Adeudado"+l+K+l;
+          Q="Cuotas: "+document.getElementById('edit-submitted-interes').value+" Monto : "+s+document.getElementById('edit-submitted-monto').value+" al "+document.getElementById('edit-submitted-plazo-meses').value+"%."+l+K+l+" Cuota         Cuota       Interes     Reduccion del    Capital"+l+"Numero:        Monto        Monto         Capital       Adeudado"+l+K+l;
           ai=g;
           ac=ah+g;
           c="";
@@ -141,14 +141,15 @@ jQuery(document).ready(function($) {
             c="";
             c+=(G+1)+".";
             Q+=b.substring(0,2)+c+b.substring(0,12-c.length)+P+b.substring(0,14-P.length)+O+b.substring(0,14-O.length)+R+b.substring(0,14-R.length)+aa+l;
-            U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";
+            //U+="<tr><td>"+(G+1)+"</td><td>"+P+"</td><td>"+O+"</td><td>"+R+"</td><td>"+aa+"</td></tr>";
           }
-        var disc = "  Monto total a pagar = " + ad + l;
+          var disc = "  Monto total a pagar = " + ad + l;
           //+ "* Existen posibles variaciones (errores de redondeo) " + l
           //+ "este calculador sólo es una referencia";
           //document.A.ak.value = Q + K + l + disc + l + K + l;
+          //alert(disc);
           document.getElementById('edit-submitted-tabla-de-amortizacion').value= Q + K + l + disc + l + K + l;
-          document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
+          document.getElementById('edit-submitted-tabla-de-amortizacion').disabled = true;
           event.preventDefault();
           return true;
 
@@ -344,7 +345,7 @@ jQuery(document).ready(function($) {
     //document.am.ak.value=aH+header+Q+l+K+l;
     //document.am.al.value=ag+U+ae;  
     document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
-      event.preventDefault();
+    event.preventDefault();
     return true;
   
       });
