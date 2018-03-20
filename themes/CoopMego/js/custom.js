@@ -13,7 +13,8 @@
 
 jQuery(document).ready(function($) {
   console.log('entra1');
- 
+  document.getElementById('edit-submitted-tabla-de-amortizacion').value='La tabla de Amortizacion se mostrará aquí';
+  document.getElementById("edit-submitted-tabla-de-amortizacion").disabled = true;
   var select = document.getElementById('edit-submitted-seleccione-el-tipo-de-amortizacion');
   select.addEventListener('change',
   function(){
@@ -29,7 +30,7 @@ jQuery(document).ready(function($) {
         var aj="";
         var l="\r";
         var b="                               ";
-        var K="____________________________"+"___________________________";
+        var K="_____________________________________"+"_____________________________________";
         var s="$ ";
         function iA(){
         this.length=iA.arguments.length;
@@ -202,11 +203,11 @@ jQuery(document).ready(function($) {
           v=2;
           stn();
           g=D;
-          c=document.getElementById('edit-submitted-interes').value;
+          c=document.getElementById('edit-submitted-plazo-meses').value;
           v=4;
           stn();
           F=D;
-          c=document.getElementById('edit-submitted-plazo-meses').value;
+          c=document.getElementById('edit-submitted-interes').value;
           v=0;
           stn();
           r=D;
