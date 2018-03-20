@@ -89,9 +89,7 @@ body {
   font-size:12px;
   line-height:160%;
 }
-#edit-submitted-monto, #edit-submitted-plazo-meses,#edit-submitted-tipo-de-garantia,#edit-submitted-tipo-de-amortizacion{
-  width: 25%;
-}
+
 a {
   color: #0062a6;
   font-weight: bold;
@@ -1733,45 +1731,33 @@ ul.menu li{
   width: 90%;
 }
 
-input,
-input[type="radio"] + label,
-input[type="checkbox"] + label:before,
-select option,
-select {
-  width: 100%;
-  padding: 1em;
-  line-height: 1.4;
-  background-color: #f9f9f9;
-  border: 1px solid #e5e5e5;
-  border-radius: 3px;
+#edit-submitted-monto, #edit-submitted-plazo-meses,#edit-submitted-interes,#edit-submitted-seleccione-el-tipo-de-amortizacion{
+  width: 40%;
+   line-height: 1.4;
+   border: 1px solid #0062A6;
+   border-radius: 3px;
   -webkit-transition: 0.35s ease-in-out;
   -moz-transition: 0.35s ease-in-out;
   -o-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
-input[type=text]{
-  width: 100%;
-  padding: 1em;
-  line-height: 1.4;
-  background-color: #f9f9f9;
-  border: 1px solid #e5e5e5;
-  border-radius: 3px;
-  -webkit-transition: 0.35s ease-in-out;
-  -moz-transition: 0.35s ease-in-out;
-  -o-transition: 0.35s ease-in-out;
-  transition: 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+#edit-submitted-tabla-de-amortizacion{
+  width: 80%;
+  border: 1px solid #0062A6;
+  display: block;
+  color: #0062A6;
+}
+#edit-submitted-monto:focus,#edit-submitted-plazo-meses:focus,#edit-submitted-interes:focus,#edit-submitted-seleccione-el-tipo-de-amortizacion:focus{
+  outline: 0;
+  border-color: #ffca00
 }
 input:focus {
   outline: 0;
-  border-color: #64ac15;
-}
-input:focus + .input-icon i {
-  color: #7ed321;
-}
-input:focus + .input-icon:after {
-  border-right-color: #7ed321;
+  border-color: #ffca00;
 }
 
 
+span.submitted{
+  display: none;
+}
