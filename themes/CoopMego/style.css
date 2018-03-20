@@ -558,7 +558,7 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
   clear: both;
   margin: 0 auto;
   padding-left: 1.5em;
-  padding-left: 1.5em;
+  padding-right: 1.5em;
   max-width: 80%;
   overflow: hidden;
   background: #fff;
@@ -1765,11 +1765,6 @@ ul.menu li{
 }
 
 @media screen and (max-width: 800px) {
-
-
-  #container{
-    padding: 0;
-  }
 
   #block-views-noticia-block-1 .view-noticia td{
     background: #ffff;
