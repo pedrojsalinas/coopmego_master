@@ -251,7 +251,7 @@ $databases = array (
     array (
       'database' => 'coopmego_db',
       'username' => 'root',
-      'password' => '',
+      'password' => '1234',
       'host' => '127.0.0.1',
       'port' => '3306',
       'driver' => 'mysql',
