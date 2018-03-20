@@ -90,7 +90,6 @@ body {
   line-height:160%;
 }
 #edit-submitted-monto, #edit-submitted-plazo-meses,#edit-submitted-tipo-de-garantia,#edit-submitted-tipo-de-amortizacion{
-  background: red;
   width: 25%;
 }
 a {
